@@ -1,0 +1,52 @@
+/* Dark theme palette */
+:root {
+  color-scheme: dark; /* native inputs, selects and scrollbars render dark */
+
+  /* Surfaces, from page background up to raised elements */
+  --bg: #0f0d12;
+  --surface: #18151d;
+  --surface-2: #1f1b25;
+  --surface-3: #2a2531;
+  --surface-deep: #09080b;
+
+  /* Text */
+  --text: #ece7f2;
+  --text-muted: #b3aabf;
+  --text-faint: #8a8196;
+
+  /* Lines */
+  --border: #332d3b;
+  --border-strong: #4a4354;
+
+  /* Inverse fill for the high-contrast "black" buttons of the old theme */
+  --ink: #ece7f2;
+  --ink-hover: #ffffff;
+  --on-ink: #141118;
+
+  /* Brand */
+  --primary: #c77dcc;
+  --primary-hover: #b566bb;
+  --primary-light: rgba(199, 125, 204, 0.14);
+  --primary-dark: #dca6e2; /* accent text — lighter so it reads on dark surfaces */
+  --accent: #d966cc;
+
+  /* Legacy names kept for existing styles */
+  --dark: var(--text);
+  --white: var(--surface);
+  --black: var(--text);
+  --gray-light: var(--bg);
+  --gray-mid: var(--border);
+  --gray-text: #9c93a8;
+  --success: #22c55e;
+  --error: #ef4444;
+
+  --font-display: "Bebas Neue", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+  --font-cursive: "Pacifico", cursive;
+  --font-brand: "Cormorant Garamond", Georgia, serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --nav-height: 64px;
+}
